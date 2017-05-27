@@ -1,0 +1,14 @@
+prefix=/cygdrive/e/workspace/test/build/x86
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 56.41.100
+Requires: libswresample >= 1.2.100, libavutil >= 54.27.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -lavicap32 -lgdi32 -liconv -lm -lz -pthread -lpsapi -ladvapi32 -lshell32
+Libs.private: 
+Cflags: -I${includedir}

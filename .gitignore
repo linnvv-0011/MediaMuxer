@@ -1,0 +1,5 @@
+# ignore files for c/c++ objs
+*.a
+*.o
+
+

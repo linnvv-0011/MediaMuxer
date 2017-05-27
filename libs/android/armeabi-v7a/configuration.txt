@@ -1,0 +1,449 @@
+install prefix            /home/linux1/workspace/ffmpeg/ffmpeg_2_7_2/build/arm
+source path               .
+C compiler                arm-linux-androideabi-gcc
+C library                 bionic
+host C compiler           gcc
+host C library            glibc
+ARCH                      arm (armv7-a)
+big-endian                no
+runtime cpu detection     yes
+ARMv5TE enabled           yes
+ARMv6 enabled             yes
+ARMv6T2 enabled           yes
+VFP enabled               yes
+NEON enabled              yes
+THUMB enabled             yes
+debug symbols             yes
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    yes
+shared                    no
+postprocessing support    yes
+new filter support        yes
+network support           yes
+threading support         pthreads
+safe bitstream reader     yes
+SDL support               no
+opencl enabled            no
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+
+External libraries:
+zlib
+
+Enabled decoders:
+aac			bfi			g729
+aac_latm		bink			gif
+aasc			binkaudio_dct		gsm
+ac3			binkaudio_rdft		gsm_ms
+ac3_fixed		bintext			h261
+adpcm_4xm		bmp			h263
+adpcm_adx		bmv_audio		h263i
+adpcm_afc		bmv_video		h263p
+adpcm_ct		brender_pix		h264
+adpcm_dtk		c93			hevc
+adpcm_ea		cavs			hnm4_video
+adpcm_ea_maxis_xa	ccaption		hq_hqa
+adpcm_ea_r1		cdgraphics		hqx
+adpcm_ea_r2		cdxl			huffyuv
+adpcm_ea_r3		cinepak			iac
+adpcm_ea_xas		cljr			idcin
+adpcm_g722		cllc			idf
+adpcm_g726		comfortnoise		iff_byterun1
+adpcm_g726le		cook			iff_ilbm
+adpcm_ima_amv		cpia			imc
+adpcm_ima_apc		cscd			indeo2
+adpcm_ima_dk3		cyuv			indeo3
+adpcm_ima_dk4		dca			indeo4
+adpcm_ima_ea_eacs	dfa			indeo5
+adpcm_ima_ea_sead	dirac			interplay_dpcm
+adpcm_ima_iss		dnxhd			interplay_video
+adpcm_ima_oki		dpx			jacosub
+adpcm_ima_qt		dsd_lsbf		jpeg2000
+adpcm_ima_rad		dsd_lsbf_planar		jpegls
+adpcm_ima_smjpeg	dsd_msbf		jv
+adpcm_ima_wav		dsd_msbf_planar		kgv1
+adpcm_ima_ws		dsicinaudio		kmvc
+adpcm_ms		dsicinvideo		lagarith
+adpcm_sbpro_2		dss_sp			loco
+adpcm_sbpro_3		dvbsub			mace3
+adpcm_sbpro_4		dvdsub			mace6
+adpcm_swf		dvvideo			mdec
+adpcm_thp		dxa			metasound
+adpcm_vima		dxtory			microdvd
+adpcm_xa		eac3			mimic
+adpcm_yamaha		eacmv			mjpeg
+aic			eamad			mjpegb
+alac			eatgq			mlp
+alias_pix		eatgv			mmvideo
+als			eatqi			motionpixels
+amrnb			eightbps		movtext
+amrwb			eightsvx_exp		mp1
+amv			eightsvx_fib		mp1float
+anm			escape124		mp2
+ansi			escape130		mp2float
+ape			evrc			mp3
+apng			exr			mp3adu
+ass			ffv1			mp3adufloat
+asv1			ffvhuff			mp3float
+asv2			ffwavesynth		mp3on4
+atrac1			fic			mp3on4float
+atrac3			flac			mpc7
+atrac3p			flashsv			mpc8
+aura			flashsv2		mpeg1video
+aura2			flic			mpeg2video
+avrn			flv			mpeg4
+avrp			fourxm			mpegvideo
+avs			fraps			mpl2
+avui			frwu			msa1
+ayuv			g2m			msmpeg4v1
+bethsoftvid		g723_1			msmpeg4v2
+msmpeg4v3		qdm2			twinvq
+msrle			qdraw			txd
+mss1			qpeg			ulti
+mss2			qtrle			utvideo
+msvideo1		r10k			v210
+mszh			r210			v210x
+mts2			ra_144			v308
+mvc1			ra_288			v408
+mvc2			ralf			v410
+mxpeg			rawvideo		vb
+nellymoser		realtext		vble
+nuv			rl2			vc1
+on2avc			roq			vc1image
+opus			roq_dpcm		vcr1
+paf_audio		rpza			vima
+paf_video		rv10			vmdaudio
+pam			rv20			vmdvideo
+pbm			rv30			vmnc
+pcm_alaw		rv40			vorbis
+pcm_bluray		s302m			vp3
+pcm_dvd			sami			vp5
+pcm_f32be		sanm			vp6
+pcm_f32le		sgi			vp6a
+pcm_f64be		sgirle			vp6f
+pcm_f64le		shorten			vp7
+pcm_lxf			sipr			vp8
+pcm_mulaw		smackaud		vp9
+pcm_s16be		smacker			vplayer
+pcm_s16be_planar	smc			vqa
+pcm_s16le		smvjpeg			wavpack
+pcm_s16le_planar	snow			webp
+pcm_s24be		sol_dpcm		webvtt
+pcm_s24daud		sonic			wmalossless
+pcm_s24le		sp5x			wmapro
+pcm_s24le_planar	srt			wmav1
+pcm_s32be		ssa			wmav2
+pcm_s32le		stl			wmavoice
+pcm_s32le_planar	subrip			wmv1
+pcm_s8			subviewer		wmv2
+pcm_s8_planar		subviewer1		wmv3
+pcm_u16be		sunrast			wmv3image
+pcm_u16le		svq1			wnv1
+pcm_u24be		svq3			ws_snd1
+pcm_u24le		tak			xan_dpcm
+pcm_u32be		targa			xan_wc3
+pcm_u32le		targa_y216		xan_wc4
+pcm_u8			tdsc			xbin
+pcm_zork		text			xbm
+pcx			theora			xface
+pgm			thp			xl
+pgmyuv			tiertexseqvideo		xsub
+pgssub			tiff			xwd
+pictor			tmv			y41p
+pjs			truehd			yop
+png			truemotion1		yuv4
+ppm			truemotion2		zero12v
+prores			truespeech		zerocodec
+prores_lgpl		tscc			zlib
+ptx			tscc2			zmbv
+qcelp			tta
+
+Enabled encoders:
+a64multi		jpeg2000		ppm
+a64multi5		jpegls			prores
+aac			ljpeg			prores_aw
+ac3			mjpeg			prores_ks
+ac3_fixed		movtext			qtrle
+adpcm_adx		mp2			r10k
+adpcm_g722		mp2fixed		r210
+adpcm_g726		mpeg1video		ra_144
+adpcm_ima_qt		mpeg2video		rawvideo
+adpcm_ima_wav		mpeg4			roq
+adpcm_ms		msmpeg4v2		roq_dpcm
+adpcm_swf		msmpeg4v3		rv10
+adpcm_yamaha		msvideo1		rv20
+alac			nellymoser		s302m
+alias_pix		pam			sgi
+amv			pbm			snow
+apng			pcm_alaw		sonic
+ass			pcm_f32be		sonic_ls
+asv1			pcm_f32le		srt
+asv2			pcm_f64be		ssa
+avrp			pcm_f64le		subrip
+avui			pcm_mulaw		sunrast
+ayuv			pcm_s16be		svq1
+bmp			pcm_s16be_planar	targa
+cinepak			pcm_s16le		tiff
+cljr			pcm_s16le_planar	tta
+comfortnoise		pcm_s24be		utvideo
+dca			pcm_s24daud		v210
+dnxhd			pcm_s24le		v308
+dpx			pcm_s24le_planar	v408
+dvbsub			pcm_s32be		v410
+dvdsub			pcm_s32le		vorbis
+dvvideo			pcm_s32le_planar	wavpack
+eac3			pcm_s8			webvtt
+ffv1			pcm_s8_planar		wmav1
+ffvhuff			pcm_u16be		wmav2
+flac			pcm_u16le		wmv1
+flashsv			pcm_u24be		wmv2
+flashsv2		pcm_u24le		xbm
+flv			pcm_u32be		xface
+g723_1			pcm_u32le		xsub
+gif			pcm_u8			xwd
+h261			pcx			y41p
+h263			pgm			yuv4
+h263p			pgmyuv			zlib
+huffyuv			png			zmbv
+
+Enabled hwaccels:
+
+Enabled parsers:
+aac			dvd_nav			mpegvideo
+aac_latm		dvdsub			opus
+ac3			flac			png
+adx			gsm			pnm
+bmp			h261			rv30
+cavsvideo		h263			rv40
+cook			h264			tak
+dca			hevc			vc1
+dirac			mjpeg			vorbis
+dnxhd			mlp			vp3
+dpx			mpeg4video		vp8
+dvbsub			mpegaudio		vp9
+
+Enabled demuxers:
+aac			gsm			mtv
+ac3			gxf			mv
+act			h261			mvi
+adf			h263			mxf
+adp			h264			mxg
+adx			hevc			nc
+aea			hls			nistsphere
+afc			hnm			nsv
+aiff			ico			nut
+amr			idcin			nuv
+anm			idf			ogg
+apc			iff			oma
+ape			ilbc			paf
+apng			image2			pcm_alaw
+aqtitle			image2_alias_pix	pcm_f32be
+asf			image2_brender_pix	pcm_f32le
+ass			image2pipe		pcm_f64be
+ast			image_bmp_pipe		pcm_f64le
+au			image_dpx_pipe		pcm_mulaw
+avi			image_exr_pipe		pcm_s16be
+avr			image_j2k_pipe		pcm_s16le
+avs			image_jpeg_pipe		pcm_s24be
+bethsoftvid		image_jpegls_pipe	pcm_s24le
+bfi			image_pictor_pipe	pcm_s32be
+bink			image_png_pipe		pcm_s32le
+bintext			image_qdraw_pipe	pcm_s8
+bit			image_sgi_pipe		pcm_u16be
+bmv			image_sunrast_pipe	pcm_u16le
+boa			image_tiff_pipe		pcm_u24be
+brstm			image_webp_pipe		pcm_u24le
+c93			ingenient		pcm_u32be
+caf			ipmovie			pcm_u32le
+cavsvideo		ircam			pcm_u8
+cdg			iss			pjs
+cdxl			iv8			pmp
+cine			ivf			pva
+concat			jacosub			pvf
+data			jv			qcp
+daud			latm			r3d
+dfa			live_flv		rawvideo
+dirac			lmlm4			realtext
+dnxhd			loas			redspark
+dsf			lrc			rl2
+dsicin			lvf			rm
+dss			lxf			roq
+dts			m4v			rpl
+dtshd			matroska		rsd
+dv			mgsts			rso
+dvbsub			microdvd		rtp
+dxa			mjpeg			rtsp
+ea			mlp			sami
+ea_cdata		mlv			sap
+eac3			mm			sbg
+epaf			mmf			sdp
+ffm			mov			sdr2
+ffmetadata		mp3			segafilm
+filmstrip		mpc			shorten
+flac			mpc8			siff
+flic			mpegps			sln
+flv			mpegts			smacker
+fourxm			mpegtsraw		smjpeg
+frm			mpegvideo		smush
+g722			mpjpeg			sol
+g723_1			mpl2			sox
+g729			mpsub			spdif
+gif			msnwc_tcp		srt
+stl			tty			webm_dash_manifest
+str			txd			webvtt
+subviewer		vc1			wsaud
+subviewer1		vc1t			wsvqa
+sup			vivo			wtv
+swf			vmd			wv
+tak			vobsub			xa
+tedcaptions		voc			xbin
+thp			vplayer			xmv
+tiertexseq		vqf			xwma
+tmv			w64			yop
+truehd			wav			yuv4mpegpipe
+tta			wc3
+
+Enabled muxers:
+a64			ipod			pcm_s32be
+ac3			ircam			pcm_s32le
+adts			ismv			pcm_s8
+adx			ivf			pcm_u16be
+aiff			jacosub			pcm_u16le
+amr			latm			pcm_u24be
+apng			lrc			pcm_u24le
+asf			m4v			pcm_u32be
+asf_stream		matroska		pcm_u32le
+ass			matroska_audio		pcm_u8
+ast			md5			psp
+au			microdvd		rawvideo
+avi			mjpeg			rm
+avm2			mkvtimestamp_v2		roq
+bit			mlp			rso
+caf			mmf			rtp
+cavsvideo		mov			rtp_mpegts
+crc			mp2			rtsp
+dash			mp3			sap
+data			mp4			segment
+daud			mpeg1system		singlejpeg
+dirac			mpeg1vcd		smjpeg
+dnxhd			mpeg1video		smoothstreaming
+dts			mpeg2dvd		sox
+dv			mpeg2svcd		spdif
+eac3			mpeg2video		spx
+f4v			mpeg2vob		srt
+ffm			mpegts			stream_segment
+ffmetadata		mpjpeg			swf
+filmstrip		mxf			tee
+flac			mxf_d10			tg2
+flv			mxf_opatom		tgp
+framecrc		null			truehd
+framemd5		nut			uncodedframecrc
+g722			oga			vc1
+g723_1			ogg			vc1t
+gif			oma			voc
+gxf			opus			w64
+h261			pcm_alaw		wav
+h263			pcm_f32be		webm
+h264			pcm_f32le		webm_chunk
+hds			pcm_f64be		webm_dash_manifest
+hevc			pcm_f64le		webp
+hls			pcm_mulaw		webvtt
+ico			pcm_s16be		wtv
+ilbc			pcm_s16le		wv
+image2			pcm_s24be		yuv4mpegpipe
+image2pipe		pcm_s24le
+
+Enabled protocols:
+cache			http			rtmpt
+concat			httpproxy		rtp
+crypto			icecast			srtp
+data			md5			subfile
+ffrtmphttp		mmsh			tcp
+file			mmst			udp
+ftp			pipe			udplite
+gopher			rtmp			unix
+hls
+
+Enabled filters:
+adelay			deshake			pan
+aecho			detelecine		perms
+aeval			drawbox			perspective
+aevalsrc		drawgrid		phase
+afade			earwax			pixdesctest
+aformat			ebur128			pp
+ainterleave		edgedetect		pp7
+allpass			elbg			psnr
+alphaextract		eq			pullup
+alphamerge		equalizer		qp
+amerge			extractplanes		removelogo
+amix			fade			repeatfields
+amovie			fftfilt			replaygain
+anull			field			resample
+anullsink		fieldmatch		rgbtestsrc
+anullsrc		fieldorder		rotate
+apad			find_rect		sab
+aperms			flanger			scale
+aphaser			format			select
+aresample		fps			sendcmd
+aselect			framepack		separatefields
+asendcmd		framestep		setdar
+asetnsamples		fspp			setfield
+asetpts			geq			setpts
+asetrate		gradfun			setsar
+asettb			haldclut		settb
+ashowinfo		haldclutsrc		showcqt
+asplit			hflip			showinfo
+astats			highpass		showpalette
+astreamsync		histeq			showspectrum
+asyncts			histogram		showwaves
+atempo			hqdn3d			showwavespic
+atrim			hqx			shuffleplanes
+avectorscope		hue			signalstats
+bandpass		idet			silencedetect
+bandreject		il			silenceremove
+bass			interlace		sine
+bbox			interleave		smartblur
+biquad			join			smptebars
+blackdetect		kerndeint		smptehdbars
+blackframe		lenscorrection		split
+blend			life			spp
+boxblur			lowpass			stereo3d
+cellauto		lut			super2xsai
+channelmap		lut3d			swapuv
+channelsplit		lutrgb			tblend
+chorus			lutyuv			telecine
+codecview		mandelbrot		testsrc
+color			mcdeint			thumbnail
+colorbalance		mergeplanes		tile
+colorchannelmixer	movie			tinterlace
+colorlevels		mpdecimate		transpose
+colormatrix		mptestsrc		treble
+compand			negate			trim
+concat			noformat		unsharp
+copy			noise			uspp
+cover_rect		null			vflip
+crop			nullsink		vignette
+cropdetect		nullsrc			volume
+curves			overlay			volumedetect
+dcshift			owdenoise		w3fdif
+dctdnoiz		pad			xbr
+decimate		palettegen		yadif
+dejudder		paletteuse		zoompan
+delogo
+
+Enabled bsfs:
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: GPL version 3 or later
+Creating config.mak, config.h, and doc/config.texi...
+libavutil/avconfig.h is unchanged
+
+WARNING: arm-linux-androideabi-pkg-config not found, library detection may fail.
